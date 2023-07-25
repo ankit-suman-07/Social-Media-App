@@ -1,0 +1,94 @@
+.post {
+    
+    /* border: 2px solid red; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    padding: 10px;
+    
+}
+
+
+table {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 2px solid black; */
+    max-width: 500px;
+    min-width: 400px;
+    width: 50%;
+    aspect-ratio: 1/1;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.titleRow {
+    height: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+
+.titleRow td {
+    text-align: left;
+    padding-left: 10px;
+    color: #222222;
+}
+
+.imgTD {
+    width: 25px;
+}
+
+.postImg {
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.userRow {
+    height: 20px;
+    font-size: 13px;
+}
+
+.userRow .user {
+    display: flex;
+    justify-content: end;
+    color: #db5248;
+}
+
+.descriptionCol {
+    border: 0.5px solid #db5248;
+    padding: 5px;
+    /* background-color:#db5248; */
+}
+
+
+
+.likesRow {
+    height: 20px;
+}
+
+.likesRow .likes {
+    height: 30px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.likeBtn {
+    height: 30px;
+    
+    aspect-ratio: 1/1;
+    padding: 0px;
+    background: none;
+    border: none;
+    
+}
+
+.likeBtn:hover {
+    cursor: pointer;
+}

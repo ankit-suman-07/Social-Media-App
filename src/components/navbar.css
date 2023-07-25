@@ -1,0 +1,98 @@
+.nav {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 60px;
+}
+
+
+.navLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLeft .link {
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navLeft .link:hover {
+    color: bisque;
+}
+
+.navRight {
+    width: 50%;
+    right: 0px;
+}
+
+.rightSection {    
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.rightSection img{
+    height: 60px;
+    padding-left: 20px;
+}
+
+.rightSection button{
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* CSS */
+.btn-logout {
+  align-items: center;
+  background-color: #fff;
+  /* border: 2px solid #000; */
+  /* box-sizing: border-box; */
+  color: #222222;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 60px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn-logout:focus {
+  color: #171e29;
+}
+
+.btn-logout:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.btn-logout:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+    .btn-logout {
+    min-width: 170px;
+  }
+}
